@@ -8,7 +8,7 @@ def add(a, b):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Add two numbers")
+    parser = argparse.ArgumentParser(description="PyJen027: Add two numbers")
     parser.add_argument("a", nargs="?")
     parser.add_argument("b", nargs="?")
     args = parser.parse_args()
